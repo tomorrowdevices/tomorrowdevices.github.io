@@ -1,7 +1,6 @@
 .navbar {
   background-color: #800080;  /* purple background */
-  width: 50%;                 /* half the page */
-  float: right;               /* align to right side */
+        
   padding: 10px 20px;
   box-sizing: border-box;     /* includes padding in width */
 }
