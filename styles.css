@@ -1,7 +1,8 @@
 .navbar {
   background-color: #4B0082;
-  padding: 10px 20px;
+  float: right
   width: 40%;
+  padding: 10px 20px;
 
   box-sizing: border-box;     /* includes padding in width */
 }
