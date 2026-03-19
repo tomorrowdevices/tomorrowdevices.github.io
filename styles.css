@@ -1,37 +1,27 @@
 .navbar {
-  width: 100%;                 /* full page width */
-  background-color: #663399;   /* purple */
+  background-color: #800080;  /* purple background */
+  width: 50%;                 /* half the page */
+  float: right;               /* align to right side */
   padding: 10px 20px;
-  box-sizing: border-box;
-  display: flex;               /* flex layout */
-  align-items: center;         /* vertically center items */
-  justify-content: space-between; /* logo left, menu right */
+  box-sizing: border-box;     /* includes padding in width */
 }
 
-/* Logo styling */
-.logo a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-/* Menu container */
 .menu {
   display: flex;
-  gap: 20px; /* spacing between links */
+  justify-content: flex-end;  /* push links to the far right within navbar */
 }
 
-/* Menu links */
 .menu a {
   color: white;
   text-decoration: none;
+  margin-left: 20px;
   font-size: 16px;
 }
 
 .menu a:hover {
   text-decoration: underline;
-  color: #FFD700;
+  color: #FFD700; /* optional hover color */
+}
 .menu a {
   cursor: pointer;
 }
