@@ -1,7 +1,7 @@
 .navbar {
   background-color: #4B0082;
   padding: 10px 20px;
-  width: 50%;
+  width: 40%;
 
   box-sizing: border-box;     /* includes padding in width */
 }
