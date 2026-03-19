@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #800080;  /* purple background */
+  background-color: #663399;  /* purple background */
         
   padding: 10px 20px;
   box-sizing: border-box;     /* includes padding in width */
@@ -27,4 +27,10 @@
 .navbar {
   position: relative;
   z-index: 1000;
+}
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
 }
