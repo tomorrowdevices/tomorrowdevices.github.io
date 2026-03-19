@@ -15,3 +15,7 @@
 .menu a:hover {
   text-decoration: underline;
 }
+.navbar {
+  position: relative;
+  z-index: 1000;
+}
