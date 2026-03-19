@@ -13,6 +13,8 @@
 .navbar {
   background-color: #333;
   padding: 10px;
+  display: flex;
+  justify-content: flex-end; /* 👈 pushes everything right */
 }
 
 .dropbtn {
@@ -25,12 +27,12 @@
 
 .dropdown {
   position: relative;
-  display: inline-block;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
+  right: 0; 
   background-color: white;
   min-width: 160px;
   box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
