@@ -3,8 +3,12 @@
   padding: 10px 20px;
   width: 50%;
   float: right;
+  box-sizing: border-box;     /* includes padding in width */
+}
+
+.menu {
   display: flex;
-  justify-content: flex-end; /* keeps it on the right */
+  justify-content: flex-end;  /* push links to the far right within navbar */
 }
 
 .menu a {
